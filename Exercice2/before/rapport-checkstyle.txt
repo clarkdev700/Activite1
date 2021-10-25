@@ -1,0 +1,11 @@
+Début de la vérification...
+[ERROR] C:\Miage306\devoir_1\exercice2\TabAlgos.java:3:1: Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public. [HideUtilityClassConstructor]
+[ERROR] C:\Miage306\devoir_1\exercice2\TabAlgos.java:8:45: Balise Javadoc @param manquante pour 'tab'. [JavadocMethod]
+[ERROR] C:\Miage306\devoir_1\exercice2\TabAlgos.java:23:46: Balise Javadoc @param manquante pour 'tab'. [JavadocMethod]
+[ERROR] C:\Miage306\devoir_1\exercice2\TabAlgos.java:26: La ligne excède 80 caractères (trouvé 87). [LineLength]
+[ERROR] C:\Miage306\devoir_1\exercice2\TabAlgos.java:42:45: Balise Javadoc @param manquante pour 'tab1'. [JavadocMethod]
+[ERROR] C:\Miage306\devoir_1\exercice2\TabAlgos.java:42:63: Balise Javadoc @param manquante pour 'tab2'. [JavadocMethod]
+[ERROR] C:\Miage306\devoir_1\exercice2\TabAlgos.java:62:50: Balise Javadoc @param manquante pour 'tab1'. [JavadocMethod]
+[ERROR] C:\Miage306\devoir_1\exercice2\TabAlgos.java:62:68: Balise Javadoc @param manquante pour 'tab2'. [JavadocMethod]
+[ERROR] C:\Miage306\devoir_1\exercice2\TabAlgos.java:79:22: L'expression peut être simplifiée. [SimplifyBooleanExpression]
+Vérification terminée.

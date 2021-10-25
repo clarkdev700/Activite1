@@ -1,0 +1,39 @@
+Note: Compte tenue de la taille limit les fichier jar ont été supprimé
+
+Exercice1
+--- compilation
+javac Produit.java
+---Generation de rapport 
+--checkstyle
+java -jar checkstyle-9.0-all.jar -c sun_checks.xml Produit.java -o rapport-checkstyle.txt
+-- pmd cmde
+pmd.bat -d Produit.java -f text -R rulesets/java/quickstart.xml -r rapport-pmd.txt
+---- spotbogs
+java -jar %SPOTBUGS_HOME%\lib\spotbugs.jar -html -output rapport-spotbugs.html Produit.class
+
+
+Exercice2
+--- compilation
+javac -d out TabAlgosUtils.java
+javac  -d out -cp  junit-platform-console-standalone-1.8.0-RC1.jar;out TestTabAlgos.java
+
+---Generation de rapport 
+
+//TabAlgosUtils
+--checkstyle
+java -jar checkstyle-9.0-all.jar -c sun_checks.xml TabAlgosUtils.java -o rapport-checkstyle.txt
+-- pmd cmde
+pmd.bat -d TabAlgosUtils.java -f text -R rulesets/java/quickstart.xml -r rapport-pmd.txt.txt
+---- spotbogs
+java -jar %SPOTBUGS_HOME%\lib\spotbugs.jar -html -output rapport_spotbugs1.html out/mypackage/TabAlgosUtils.class
+
+//TestTabAlgos
+--checkstyle
+java -jar checkstyle-9.0-all.jar -c sun_checks.xml TestTabAlgos.java -o test-rapport-checkstyle.txt 
+-- pmd cmde
+pmd.bat -d TestTabAlgos.java -f text -R rulesets/java/quickstart.xml -r test-rapport-pmd.txt.txt 
+---- spotbogs
+java -jar %SPOTBUGS_HOME%\lib\spotbugs.jar -html -output test-rapport-spotbugs1.html out/mypackage/TestTabAlgos.class -auxclasspath out/mypackage/TabAlgosUtils.class out/mypackage/TabAlgosUtils.class
+
+//execution junit
+java -jar  junit-platform-console-standalone-1.8.0-RC1.jar -cp out --scan-classpath

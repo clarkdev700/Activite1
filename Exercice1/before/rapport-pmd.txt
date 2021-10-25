@@ -1,0 +1,4 @@
+C:\Miage306\devoir_1\Produit.java:2:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+C:\Miage306\devoir_1\Produit.java:21:	UnusedLocalVariable:	Avoid unused local variables such as 'resultat'.
+C:\Miage306\devoir_1\Produit.java:22:	ControlStatementBraces:	This statement should have braces
+C:\Miage306\devoir_1\Produit.java:26:	OverrideBothEqualsAndHashcode:	Ensure you override both equals() and hashCode()

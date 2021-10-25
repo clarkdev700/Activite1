@@ -1,0 +1,25 @@
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+←[36m.←[0m
+←[36m+--←[0m ←[36mJUnit Jupiter←[0m ←[32m[OK]←[0m
+←[36m| '--←[0m ←[36mTestTabAlgos←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestEgaux()←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestMoyenneAvecException()←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestSimilaires()←[0m ←[32m[OK]←[0m
+←[36m|   +--←[0m ←[34mtestMoyenne()←[0m ←[32m[OK]←[0m
+←[36m|   '--←[0m ←[34mtestplusGrand()←[0m ←[32m[OK]←[0m
+←[36m'--←[0m ←[36mJUnit Vintage←[0m ←[32m[OK]←[0m
+
+Test run finished after 1054 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]

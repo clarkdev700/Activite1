@@ -1,0 +1,1 @@
+C:\Miage306\devoir_1\exercice2\TestTabAlgos.java:45:	EmptyCatchBlock:	Avoid empty catch blocks

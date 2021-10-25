@@ -1,0 +1,4 @@
+C:\Miage306\devoir_1\exercice2\TabAlgos.java:3:	UseUtilityClass:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Miage306\devoir_1\exercice2\TabAlgos.java:3:	ClassNamingConventions:	The utility class name 'TabAlgos' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+C:\Miage306\devoir_1\exercice2\TabAlgos.java:29:	ForLoopCanBeForeach:	This for loop can be replaced by a foreach loop
+C:\Miage306\devoir_1\exercice2\TabAlgos.java:32:	UselessParentheses:	Useless parentheses.
